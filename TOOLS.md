@@ -35,3 +35,11 @@
 | `list_policies` | List policies in Okta. |
 | `list_policy_mappings` | List all resources (applications) mapped to a policy |
 | `assign_policy_to_app` | Assign a policy to an application | 
+
+## Governance Manager
+| Tool | Description |
+|------|-------------|
+| `enable_governance` | Enable Governance (Access Governance) for an Okta application |
+| `list_entitlements` | List governance entitlements for an application |
+| `create_entitlement` | Create a governance entitlement for an application |
+| `update_entitlement` | Update (replace) a governance entitlement for an application | 
