@@ -34,4 +34,5 @@
 |------|-------------|
 | `list_policies` | List policies in Okta. |
 | `list_policy_mappings` | List all resources (applications) mapped to a policy |
-| `assign_policy_to_app` | Assign a policy to an application | 
+| `assign_policy_to_app` | Assign a policy to an application |
+| `remove_policy_mapping` | Remove/delete a policy resource mapping (unassign policy from resource) | 
