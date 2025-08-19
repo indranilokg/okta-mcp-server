@@ -4,7 +4,7 @@
   "description": "Okta MCP (Model Context Protocol) server for managing Okta applications, users, and groups",
   "main": "mcpServer.js",
   "bin": {
-    "oktamcp": "./mcpServer.js"
+    "oktamcp": "mcpServer.js"
   },
   "type": "module",
   "scripts": {
@@ -41,7 +41,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/indranilokg/okta-mcp-server.git"
+    "url": "git+https://github.com/indranilokg/okta-mcp-server.git"
   },
   "bugs": {
     "url": "https://github.com/indranilokg/okta-mcp-server/issues"
@@ -56,5 +56,10 @@
     "tools/",
     "commands/",
     "README.md"
-  ]
+  ],
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "devDependencies": {}
 }
